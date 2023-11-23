@@ -1,1 +1,1 @@
-ths is a demo website made using bootstrep fro responsiveness
+this is a demo website made using bootstrep for responsiveness
