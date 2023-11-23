@@ -1,0 +1,28 @@
+
+
+
+html{
+    scroll-behavior:smooth !important;
+}
+
+.slide{
+    height: 512px;
+    /* height: auto; */
+    object-fit:none;
+}
+nav ul li a,.dropdownmenu li a{
+    position: relative;
+}
+nav ul li a::after,.dropdownmenu li a::after{
+    content: '';
+    width: 0;
+    height: 4px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: 0.5s;
+}
+#navbarSupportedContent ul li a:hover::after,.dropdownmenu li a:hover::after{
+    width: 100%;
+}
